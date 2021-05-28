@@ -68,6 +68,7 @@ nav .icon ion-icon {
     object-fit: cover;
     position: fixed;
     object-position: center;
+    background: black;
 }
 .banner-text {
     position: relative;
@@ -101,6 +102,10 @@ nav .icon ion-icon {
 .banner-text a {
     color: white;
     text-decoration: none;
+}
+a {
+    color: white;
+    transition: 2s;
 }
 a:hover {
     color: orange;
